@@ -10,6 +10,8 @@ As a business owner, one may want to view and manage the different departments, 
 
 When opening the Employee Tracker application, users are immediately greeted with prompts that they can choose from. If a user chooses "View All Employees", "View All Roles", or "View All Departments", they will be presented with a table displaying the respective aspect of the company they chose. If they choose "Add an Employee", they can input an employee's first and last name, choose the employee's role, and even assign a manager to the employee. When choosing "Add a Role", users can create a new role and set its salary and the department it is in. When choosing "Add a Department", users can create a new department that they can subsequently add roles and employees to. And when choosing "Update Employee Roles", they can select the employee whose role they want to update and assign them a new role. If users are all done using the Employee Tracker, they can select "Exit Program" from the list of prompts.
 
+You can view a video guide on how to use the application [here](https://drive.google.com/file/d/1VCgsN4pI9A3a2aUWL2QOIzR1RyZy4Bhy/view?usp=sharing)!
+
 ## Screenshots
 
 Introductory prompt list when first running the program
