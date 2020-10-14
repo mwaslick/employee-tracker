@@ -25,7 +25,7 @@ Adding a new employee to the program
 ![Screenshot of someone adding an employee, inputting their name, ID, and role](./screenshots/addemployee.png)
 
 Adding a new role to the program
-![Screenshot of someone adding a role, inputting its salary and department](./screenshots/role.png)
+![Screenshot of someone adding a role, inputting its salary and department](./screenshots/addrole.png)
 
 Updating an employee's role
 ![Screenshot of someone updating an employee's role](./screenshots/updateemployee.png)
