@@ -20,6 +20,7 @@ connection.queryPromise = util.promisify(connection.query);
 
 connection.connect(function(err) {
     if (err) throw err;
+    console.log("Welcome to the Employee Tracker!")
     employeePrompt();
 })
 
@@ -37,7 +38,8 @@ function employeePrompt() {
             "Add an Employee",
             "Add a Department",
             "Add a Role",
-            "Update Employee Roles"
+            "Update Employee Roles",
+            "Exit Program"
         ]
     })
     .then(function(answer) {
@@ -69,6 +71,10 @@ function employeePrompt() {
             case "Update Employee Roles":
                 updateEmployee();
                 break;
+
+            case "Exit Program":
+                 console.log("Thank you for using the Employee Tracker!");
+                 connection.end();
         }
     });
 };
@@ -173,7 +179,7 @@ function addRole() {
 
         let depArr = data.map(function(dep) {
             return {
-                name: dep.title,
+                name: dep.name,
                 value: dep.id
             }
         })
