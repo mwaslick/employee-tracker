@@ -2,6 +2,16 @@
 
 > In a company with a great deal of employees, a business owner may seek to view all of the employees, roles, and departments they have, add new aspects to their company, or reassign certain employees' roles. Using Node.js, Inquirer, and MySQL, the Employee Tracker application allows users to input data about their companies and edit it at a record pace.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+
+ * [Description](#description)
+  * [Usage](#usage)
+  * [Screenshots](#screenshots)
+  * [License](#license)
+  * [Questions](#questions)
+
 ## Description
 
 As a business owner, one may want to view and manage the different departments, roles, and employees within their company at a quick pace. Instead of trying to keep track of paperwork or endless Microsoft Excel files, the Employee Tracker application can be used to record employee names and positions, as well as different roles and departments within a company. This application uses Node.js (with the Node packages Inquirer.js, Console.table, and Util) as well as MySQL to allow employee data to be written, edited, and displayed in the console.
@@ -31,6 +41,16 @@ Adding a new role to the program
 
 Updating an employee's role
 ![Screenshot of someone updating an employee's role](./screenshots/updateemployee.png)
+
+## License
+
+Copyright 2020 Maria Waslick
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Questions
 
