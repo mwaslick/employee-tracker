@@ -30,23 +30,3 @@ CREATE TABLE employee (
     PRIMARY KEY (id)
 );
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("John", "Doe", 5, 2);
-
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Jane", "Doe", 10, 3);
-
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Bob", "Bobo", 2, 2);
-
-INSERT INTO role (title, salary)
-VALUES ("Manager", 50);
-
-INSERT INTO role (title, salary)
-VALUES ("Cat", 25.00);
-
-INSERT INTO department (name)
-VALUES ("Food");
-
-INSERT INTO department (name)
-VALUES ("Drinks");
